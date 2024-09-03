@@ -3,11 +3,13 @@
     "compilerOptions": {
         "target": "ESNext",
         "useDefineForClassFields": true,
+        "ignoreDeprecations": "true",
         "module": "ES6",
         "resolveJsonModule": true,
         "allowJs": true,
         "isolatedModules": true,
         "noEmitOnError": true,
+        "types": ["svelte"],
         "plugins": [
             {
                 "name": "typescript-svelte-plugin",
